@@ -1,7 +1,7 @@
 * {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: white;
-}
+    color: white; 
+} /*Jeg velger å bruke fonten "Calibri", og jeg gjør teksten hvit.*/
 
 .paragraph {
     background-color: rgba(0, 0, 0, 0.5);
@@ -9,28 +9,28 @@
     margin: auto;
     padding: 1vw;
     border-radius: 1rem;
-}
+}   /*Dette er hvordan jeg lagde boblen rundt teksten*/
 
 
 h1 {
     text-align: center;
-}
+}   /*her setter jeg bare overskriften i midten.*/
+
 body {
     background-image: url(2k14\ cover.webp);
-    background-size: 100vw;
+    background-size: cover;
     margin: 0;
     padding: 0;
-}
+    background-repeat: no-repeat;
+    ;
+}   /*Her lagde jeg bakgrunns bildet på nettsiden*/
 img {
     
     border-radius: 20px;
-}
+}   /*Her runder jeg av kantene av videoklippene*/
 
 
-body {
-    
-}
 .img {
     padding: 35px;
     text-align: center;
-}
+}   /*Her setter jeg bildene i midten, og gir dem litt avstand fra tekstboblen*/
